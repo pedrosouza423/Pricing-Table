@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap');
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.rectagle{
+    width: 100%;
+    background-color: var(--blue);
+    height: 450px;
+    text-align: center;
+    padding-top: 100px;    
+}
+
+h1{
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+h3{
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.cards{
+    display: flex;
+}
+
+.card{
+    position: absolute;
+    width: 355px;
+    height: 470px;
+    left: 167px;
+    top: 310px;
+    background-color: red;
+}
